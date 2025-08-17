@@ -102,3 +102,4 @@ service_account.json
 # API keys and secrets
 secrets.json
 api_keys.json
+/data
