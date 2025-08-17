@@ -1,0 +1,20 @@
+# Infineon Competitive Intelligence Configuration
+# Copy this file to .env and fill in your API keys
+
+# OpenAI API Key (Required for AI analysis)
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Google Sheets Configuration (Optional)
+# Download service account credentials from Google Cloud Console
+# and save as 'credentials.json' in this directory
+GOOGLE_CREDENTIALS_FILE=credentials.json
+GOOGLE_SPREADSHEET_ID=your_spreadsheet_id_here
+
+# Optional: Scraping delay between requests (seconds)
+SCRAPING_DELAY=2
+
+# Optional: OpenAI model to use
+OPENAI_MODEL=gpt-3.5-turbo
+
+# Optional: Custom title prefix for exports
+SHEETS_TITLE_PREFIX=Infineon Intelligence

@@ -1,0 +1,32 @@
+# Infineon Competitive Intelligence Crontab Example
+# Copy this file and customize for your system
+
+# Edit your crontab with: crontab -e
+# Or install this example: crontab crontab_example.txt
+
+# IMPORTANT: Replace /path/to/infineon-intelligence with your actual path
+# Example: /home/username/projects/inf
+
+# Daily execution at 9:00 AM
+0 9 * * * cd /path/to/infineon-intelligence && ./run_scheduler.sh once
+
+# Twice daily execution (9:00 AM and 6:00 PM)
+0 9,18 * * * cd /path/to/infineon-intelligence && ./run_scheduler.sh once
+
+# Every 6 hours (midnight, 6 AM, noon, 6 PM)
+0 */6 * * * cd /path/to/infineon-intelligence && ./run_scheduler.sh once
+
+# Every 12 hours (midnight and noon)
+0 */12 * * * cd /path/to/infineon-intelligence && ./run_scheduler.sh once
+
+# Weekdays only at 8:00 AM
+0 8 * * 1-5 cd /path/to/infineon-intelligence && ./run_scheduler.sh once
+
+# Weekends only at 10:00 AM
+0 10 * * 6,0 cd /path/to/infineon-intelligence && ./run_scheduler.sh once
+
+# Alternative: Direct Python execution (if you prefer)
+# 0 9 * * * cd /path/to/infineon-intelligence && /path/to/infineon-intelligence/venv/bin/python scheduled_intelligence.py --once
+
+# Log rotation (optional - keeps logs from growing too large)
+# 0 2 * * 0 find /path/to/infineon-intelligence/logs -name "*.log" -mtime +7 -delete
