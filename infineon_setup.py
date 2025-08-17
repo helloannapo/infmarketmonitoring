@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Infineon Competitive Intelligence Setup
-Comprehensive setup script for the Infineon intelligence system
+Setup script for the Infineon intelligence system
 """
 
 import os
