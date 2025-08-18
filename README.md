@@ -1,10 +1,10 @@
-# Infineon Competitive Intelligence System
+# Competitive Intelligence System
 
 ## 🎯 **Purpose**
-Specialized competitive intelligence system for Infineon Technologies AG, focused on Green Power market analysis using a Signal/Risk framework for strategic decision-making. The system provides daily competitive intelligence analysis for Infineon's ambition to maximize efficiency, reliability, and sustainability in industrial operations by applying hybrid AI models to industrial equipment at scale.
+Specialized competitive intelligence system, focused on Green Power market analysis using a Signal/Risk framework for strategic decision-making. The system provides daily competitive intelligence analysis for Infineon's ambition to maximize efficiency, reliability, and sustainability in industrial operations by applying hybrid AI models to industrial equipment at scale.
 
 ## ⏰ **Automated Scheduling**
-The system includes a powerful scheduler that can run intelligence analysis automatically at specified intervals:
+The system includes a scheduler that can run intelligence analysis automatically at specified intervals:
 
 ### **Quick Scheduler Commands**
 ```bash
@@ -44,26 +44,26 @@ For production environments, consider using system-level schedulers:
 
 ## 📁 **Project Structure**
 ```
-📦 Infineon Intelligence System/
-├── 📄 infineon_intelligence_scraper.py    # 🚀 MAIN SCRIPT
-├── 📄 scheduled_intelligence.py           # ⏰ SCHEDULER SCRIPT
-├── 📄 run_scheduler.sh                    # 🚀 SCHEDULER RUNNER
-├── 📄 crontab_example.txt                 # ⏰ Cron scheduling examples
-├── 📄 setup_venv.sh                       # 🐚 Virtual environment setup
-├── 📄 infineon_setup.py                   # ⚙️  SETUP SCRIPT  
-├── 📄 infineon_test.py                    # 🧪 TEST SCRIPT
-├── 📄 test_analysis.py                    # 🧪 ANALYSIS TEST SCRIPT
+📦 Market Intelligence System/
+├── 📄 infineon_intelligence_scraper.py    # MAIN SCRIPT
+├── 📄 scheduled_intelligence.py           # SCHEDULER SCRIPT
+├── 📄 run_scheduler.sh                    # SCHEDULER RUNNER
+├── 📄 crontab_example.txt                 # Cron scheduling examples
+├── 📄 setup_venv.sh                       # Virtual environment setup
+├── 📄 infineon_setup.py                   # SETUP SCRIPT  
+├── 📄 infineon_test.py                    # TEST SCRIPT
+├── 📄 test_analysis.py                    # ANALYSIS TEST SCRIPT
 ├── 📄 intelligence_sources_config.py      # 🔧 Source configuration
-├── 📄 requirements.txt                    # 📦 Dependencies
-├── 📄 config_template.txt                 # ⚙️ Configuration template
-├── 📄 run_intelligence.sh                 # 🚀 Quick run script
-├── 📄 README.md                          # 📚 This documentation
-├── 📁 venv/                               # 🐍 Virtual environment (created by setup)
-├── 📁 data/                               # 📊 Raw scraped data
-├── 📁 analysis/                           # 📈 AI analysis reports
-├── 📁 exports/                            # 📋 Excel files
-├── 📁 logs/                               # 📝 Execution logs
-└── 📁 intelligence/                       # 🎯 Additional intelligence files
+├── 📄 requirements.txt                    # Dependencies
+├── 📄 config_template.txt                 # Configuration template
+├── 📄 run_intelligence.sh                 # Quick run script
+├── 📄 README.md                          # This documentation
+├── 📁 venv/                               # Virtual environment (created by setup)
+├── 📁 data/                               # Raw scraped data
+├── 📁 analysis/                           # AI analysis reports
+├── 📁 exports/                            # Excel files
+├── 📁 logs/                               # Execution logs
+└── 📁 intelligence/                       # Additional intelligence files
 ```
 
 ## 🚀 **Quick Start (4 Steps)**
@@ -105,12 +105,12 @@ python3 infineon_intelligence_scraper.py
 4. **✅ Daily Aggregation**: One analysis row per day from multiple sources
 5. **✅ Strategic Focus**: Specifically tailored for Infineon's hybrid AI industrial strategy
 
-### 🏗️ **Architecture**
+### **Architecture**
 - **ConfigurableIntelligenceScraper**: Web scraping with adjustable sources
 - **InfineonIntelligenceAnalyzer**: AI-powered analysis using Signal/Risk framework
 - **ExcelIntelligenceExporter**: Professional Excel output with formatting
 
-## 🎯 **Analysis Framework**
+## **Analysis Framework**
 
 ### **Output Format**
 - **Date**: Analysis date (YYYY-MM-DD format)
@@ -199,11 +199,12 @@ The analysis specifically focuses on Infineon's hybrid AI industrial strategy in
 - AI-optimized renewable energy systems
 
 ## 📋 **Current Sources**
-- ✅ **IEA**: International Energy Agency (Global energy policy)
-- ✅ **Ember Energy**: Clean energy transition data
-- ✅ **OpenEI/NREL**: Renewable energy technology
-- ❌ **Reuters Energy**: Energy market news (disabled - requires subscription)
-- ❌ **Bloomberg Green**: Green energy finance (disabled - requires subscription)
+- **IEA**: International Energy Agency (Global energy policy)
+- **Ember Energy**: Clean energy transition data
+- **OpenEI/NREL**: Renewable energy technology
+- **Canary Media**: An independent, nonprofit newsroom covering the transition to clean energy and solutions to the climate crisis.
+- **IndustryWeek**: Provides current reporting and analysis on technology and trends for manufacturers.
+- **EIA Today in Energy**: The U.S. Energy Information Administration's source for timely articles, data, and analysis on energy topics.
 
 ## 📊 **Output Files**
 
@@ -758,6 +759,6 @@ python scheduled_intelligence.py --once --verbose
 
 ---
 
-**Developed for Infineon Technologies AG - Green Power Competitive Intelligence**  
+**Developed for the job application at Infineon Technologies AG**  
 *Last Updated: August 2025*
 
