@@ -1,9 +1,9 @@
 # Competitive Intelligence System
 
-## 🎯 **Purpose**
+## **Purpose**
 Specialized competitive intelligence system, focused on Green Power market analysis using a Signal/Risk framework for strategic decision-making. The system provides daily competitive intelligence analysis for Infineon's ambition to maximize efficiency, reliability, and sustainability in industrial operations by applying hybrid AI models to industrial equipment at scale.
 
-## ⏰ **Automated Scheduling**
+## **Automated Scheduling**
 The system includes a scheduler that can run intelligence analysis automatically at specified intervals:
 
 ### **Quick Scheduler Commands**
@@ -42,9 +42,9 @@ For production environments, consider using system-level schedulers:
 - **Windows**: Use Task Scheduler
 - **Docker**: Use cron in container or external orchestrators
 
-## 📁 **Project Structure**
+## **Project Structure**
 ```
-📦 Market Intelligence System/
+Market Intelligence System/
 ├── 📄 infineon_intelligence_scraper.py    # MAIN SCRIPT
 ├── 📄 scheduled_intelligence.py           # SCHEDULER SCRIPT
 ├── 📄 run_scheduler.sh                    # SCHEDULER RUNNER
@@ -66,7 +66,7 @@ For production environments, consider using system-level schedulers:
 └── 📁 intelligence/                       # Additional intelligence files
 ```
 
-## 🚀 **Quick Start (4 Steps)**
+## **Quick Start (4 Steps)**
 
 ### **Step 1: Setup Virtual Environment**
 ```bash
@@ -98,12 +98,12 @@ python3 infineon_intelligence_scraper.py
 
 ## 📊 **Core Features**
 
-### ✅ **Requirements Met**
-1. **✅ Configurable Sources**: Easy to add/remove intelligence sources
-2. **✅ Excel Output**: Creates spreadsheets with Date, Key insights, Signal, Risk columns  
-3. **✅ AI Analysis**: 300-word summaries with Signal/Risk assessment using Infineon's framework
-4. **✅ Daily Aggregation**: One analysis row per day from multiple sources
-5. **✅ Strategic Focus**: Specifically tailored for Infineon's hybrid AI industrial strategy
+### **Requirements Met**
+1. **Configurable Sources**: Easy to add/remove intelligence sources
+2. **Excel Output**: Creates spreadsheets with Date, Key insights, Signal, Risk columns  
+3. **AI Analysis**: 300-word summaries with Signal/Risk assessment using Infineon's framework
+4. **Daily Aggregation**: One analysis row per day from multiple sources
+5. **Strategic Focus**: Specifically tailored for Infineon's hybrid AI industrial strategy
 
 ### **Architecture**
 - **ConfigurableIntelligenceScraper**: Web scraping with adjustable sources
@@ -142,7 +142,7 @@ Events that represent threats to Infineon's hybrid AI industrial strategy:
 - Regulatory changes that disadvantage Infineon's AI approach
 - Breakthrough competitive AI technologies for industrial equipment
 
-### ⚠️ **Risk Analysis Framework**
+### **Risk Analysis Framework**
 
 #### Low Risk
 - Minor impact, easily manageable, or unlikely to materialize
@@ -164,7 +164,7 @@ Events that represent threats to Infineon's hybrid AI industrial strategy:
 - Supply chain disruptions
 - Breakthrough competitive technologies
 
-## 🎯 **Business Focus Areas**
+## **Business Focus Areas**
 
 The analysis specifically focuses on Infineon's hybrid AI industrial strategy including:
 
@@ -198,7 +198,7 @@ The analysis specifically focuses on Infineon's hybrid AI industrial strategy in
 - Predictive maintenance systems
 - AI-optimized renewable energy systems
 
-## 📋 **Current Sources**
+## **Current Sources**
 - **IEA**: International Energy Agency (Global energy policy)
 - **Ember Energy**: Clean energy transition data
 - **OpenEI/NREL**: Renewable energy technology
@@ -206,7 +206,7 @@ The analysis specifically focuses on Infineon's hybrid AI industrial strategy in
 - **IndustryWeek**: Provides current reporting and analysis on technology and trends for manufacturers.
 - **EIA Today in Energy**: The U.S. Energy Information Administration's source for timely articles, data, and analysis on energy topics.
 
-## 📊 **Output Files**
+## **Output Files**
 
 ### **Excel File** (`exports/infineon_intelligence_YYYYMMDD_HHMMSS.xlsx`)
 - **Date**: Current analysis date
@@ -223,7 +223,7 @@ The analysis specifically focuses on Infineon's hybrid AI industrial strategy in
 - Complete scraped data from all sources
 - Headlines, insights, and market signals
 
-## 🎯 **Example Analysis**
+## **Example Analysis**
 
 ```
 Date: 2024-01-15
@@ -285,11 +285,11 @@ The project uses a Python virtual environment to isolate dependencies. The `setu
 ```
 
 This script will:
-- ✅ Check Python 3 installation
-- ✅ Create a virtual environment (`venv/`)
-- ✅ Install all required dependencies
-- ✅ Create `.env` file from template
-- ✅ Test the setup
+- Check Python 3 installation
+- Create a virtual environment (`venv/`)
+- Install all required dependencies
+- Create `.env` file from template
+- Test the setup
 
 #### **Manual Virtual Environment Setup**
 ```bash
@@ -393,7 +393,7 @@ SHEETS_TITLE_PREFIX=Infineon Intelligence
 - Regulatory change monitoring
 - Supply chain risk assessment
 
-## 🔄 **Customization**
+## **Customization**
 
 ### **Adding New Sources**
 1. Edit `intelligence_sources_config.py`
@@ -451,7 +451,7 @@ This is usually caused by an invalid model name. To fix:
 - Review raw data in `data/` directory  
 - Run `python3 infineon_test.py` for diagnostics
 
-## 📞 **Testing & Validation**
+## **Testing & Validation**
 
 ### **Comprehensive Test Suite**
 The `infineon_test.py` script provides:
@@ -472,24 +472,24 @@ The `test_analysis.py` script provides:
 
 ### **Test Results**
 All tests pass with 100% success rate, ensuring:
-- ✅ All dependencies properly installed
-- ✅ All sources accessible and configurable
-- ✅ AI analysis working correctly
-- ✅ Excel export functioning
-- ✅ Complete end-to-end workflow operational
+- All dependencies properly installed
+- All sources accessible and configurable
+- AI analysis working correctly
+- Excel export functioning
+- Complete end-to-end workflow operational
 
-## ⏰ **Scheduled Intelligence System**
+## **Scheduled Intelligence System**
 
 ### **Overview**
 The system includes a powerful scheduler that automatically runs intelligence analysis at specified intervals, ensuring continuous monitoring of competitive intelligence without manual intervention.
 
 ### **Scheduler Features**
-- ✅ **Flexible Intervals**: Run every hour, 6 hours, 12 hours, 24 hours, or custom intervals
-- ✅ **One-time Execution**: Run once and exit for testing or manual execution
-- ✅ **Comprehensive Logging**: Detailed logs for monitoring and troubleshooting
-- ✅ **Virtual Environment Management**: Automatically uses the project's virtual environment
-- ✅ **Error Handling**: Robust error handling with detailed error reporting
-- ✅ **Cross-platform Support**: Works on Windows, macOS, and Linux
+- **Flexible Intervals**: Run every hour, 6 hours, 12 hours, 24 hours, or custom intervals
+- **One-time Execution**: Run once and exit for testing or manual execution
+- **Comprehensive Logging**: Detailed logs for monitoring and troubleshooting
+- **Virtual Environment Management**: Automatically uses the project's virtual environment
+- **Error Handling**: Robust error handling with detailed error reporting
+- **Cross-platform Support**: Works on Windows, macOS, and Linux
 
 ### **Quick Start with Scheduler**
 ```bash
@@ -676,7 +676,7 @@ tail -f logs/scheduler_*.log
 ls -la venv/bin/python
 ```
 
-## 🔮 **Future Enhancements**
+## **Future Enhancements**
 
 ### **Planned Features**
 - Real-time monitoring capabilities
@@ -711,7 +711,7 @@ ls -la venv/bin/python
 - **Excel**: Formatted spreadsheet with headers and styling
 - **JSON**: Raw analysis data for further processing
 
-## 🎯 **Framework Benefits**
+## **Framework Benefits**
 
 1. **Consistent Analysis**: Standardized Signal/Risk framework ensures consistent assessment
 2. **Daily Aggregation**: One row per day simplifies tracking and reporting
@@ -720,7 +720,7 @@ ls -la venv/bin/python
 5. **Automated Processing**: AI-powered analysis reduces manual effort
 6. **Multiple Export Options**: Flexible output formats for different use cases
 
-## 🚀 **Usage Commands**
+## **Usage Commands**
 
 ### **Running Analysis**
 ```bash
